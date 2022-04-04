@@ -1,14 +1,11 @@
 import { Box, NativeBaseProvider } from 'native-base';
 import React from 'react';
+import DashboardScreen from './app/Screens/DashboardScreen';
 import LoginScreen from './app/Screens/LoginScreen';
 
 function App(props) {
   return (
-    <NativeBaseProvider>
-      <Box justifyContent={'center'} alignItems={'center'} flex={1}>
-   <LoginScreen/>
-   </Box>
-   </NativeBaseProvider>
+   <DashboardScreen/>
   );
 }
 
